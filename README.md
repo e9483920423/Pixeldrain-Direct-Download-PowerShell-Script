@@ -1,7 +1,7 @@
-# Pixeldrain Direct Download - PowerShell Script
+# Pixeldrain Direct Download - Terminal Script
 
 .SYNOPSIS
-This PowerShell script converts a Pixeldrain download link into an API call (if available)
+This script converts a Pixeldrain download link into an API call (if available)
 and directly downloads the file to your `C:\Users\` directory.
 
 .DESCRIPTION
