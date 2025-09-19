@@ -1,8 +1,7 @@
 # Pixeldrain Direct Download - PowerShell Script
 
 powershell
-<#
-.SYNOPSIS
+<# .SYNOPSIS
 This PowerShell script converts a Pixeldrain download link into an API call (if available)
 and directly downloads the file to your `C:\Users\` directory.
 
@@ -29,12 +28,12 @@ $slugs = @("EXAMPLE_SLUG")
 
 
 
-## SCRIPT
+## SCRIPT (DON'T FORGET THE COMMAS AFTER EACH URL):
 
 ```powershell
 # 🔴 $urls = @(
-    "https://pixeldrain.com/u/(EXAMPLE_SLUG)"
-    "https://pixeldrain.com/u/(EXAMPLE_SLUG)"
+    "https://pixeldrain.com/u/(EXAMPLE_SLUG)",
+    "https://pixeldrain.com/u/(EXAMPLE_SLUG)",
     "https://pixeldrain.com/u/(EXAMPLE_SLUG)"
 )
 
