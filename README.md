@@ -19,7 +19,7 @@ https://pixeldrain.com/u/cW8FKre1 → slug = cW8FKre1
 ## SCRIPT (DON'T FORGET THE COMMAS AFTER EACH URL):
 
 ```
-# 🔴 $urls = @(
+$urls = @(
     "https://pixeldrain.com/u/(EXAMPLE_SLUG)",
     "https://pixeldrain.com/u/(EXAMPLE_SLUG)",
     "https://pixeldrain.com/u/(EXAMPLE_SLUG)"
@@ -44,4 +44,5 @@ foreach ($url in $urls) {
     catch {
         Write-Warning ("Failed to download from " + $url + ": " + $_)
     }
-}```
+}
+```
