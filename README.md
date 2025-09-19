@@ -16,7 +16,7 @@ https://pixeldrain.com/u/cW8FKre1 → slug = cW8FKre1
 
 
 
-## SCRIPT (DON'T FORGET THE COMMAS AFTER EACH URL):
+## SCRIPT (DON'T FORGET THE COMMAS AFTER EACH URL REMOVE IF THERE IS ONLY 1 URL):
 
 ```
 $urls = @(
